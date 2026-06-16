@@ -1,0 +1,27 @@
+{
+  "name": "nouns-builder-launch-cli",
+  "version": "0.1.0",
+  "description": "Fiduciary-first deployment pipeline for Nouns Builder DAOs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "deploy:dry-run": "ts-node src/index.ts --dry-run",
+    "test": "jest",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "viem": "^2.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
