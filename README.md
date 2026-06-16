@@ -1,3 +1,16 @@
+Project: Nouns Builder Launch-CLI
+Professionalizing onchain governance through deterministic, high-integrity deployment pipelines.
+
+This repository contains the source code for the Fiduciary-First deployment protocol. We have designed this pipeline to eliminate the "founder-centric" security risks common in DAO initialization. By utilizing CREATE2 deterministic deployments and automated permission handoffs, we ensure that administrative control is moved to the DAO Treasury in the same block as deployment.
+
+For Reviewers: See the /src directory for our module architecture and use pnpm run deploy:dry-run to verify our security-handoff logic locally.3. Your Final Checklist for Thursday 11am
+
+You are effectively "ship-ready." To maximize your chances, follow this sequence:
+Initialize Git: Run git init in your project folder.
+Add Files: Create your files (package.json, src/index.ts, .gitignore, etc.).
+Commit: Use the message provided above.
+Push: Create a public GitHub repository and push your branch.
+Link: Add the GitHub URL prominently to your Frontier Fund proposal application.
 # NounsCLI
 Professional-grade, fiduciary-first deployment pipeline for Nouns Builder DAOs. Automates deterministic (CREATE2) contract initialization and atomic permission revocation. Built with TypeScript and Viem to ensure community ownership from Block 0. Secure, modular, and gas-optimized
 
